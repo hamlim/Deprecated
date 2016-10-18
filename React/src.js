@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-var css = require('./main.css');
+var css = require('../main.css');
 
 
 // Blink --
@@ -18,9 +18,9 @@ const DepCenter = (props) => ( <div className="dep-center-wrapper">{props.childr
 const DepBgsound = (props) => ( <audio className="dep-audio" src={props.source} autoplay loop></audio> );
 
 
-ReactDOM.render(<DepStrike innerText="I am a &lt;strike&gt element!" />, document.getElementById('react-strike'));
-ReactDOM.render(<DepBlink innerText="I am a &lt;Blink&gt element!" />, document.getElementById('react-blink'));
-ReactDOM.render(<DepMarquee innerText="I am a &lt;marquee&gt element!" />, document.getElementById('react-marquee'));
-ReactDOM.render(<DepBig innerText="I am a &lt;big&gt element!" />, document.getElementById('react-big'));
-ReactDOM.render(<DepCenter innerText="I am a &lt;Center&gt element!" />, document.getElementById('react-center'));
+ReactDOM.render(<DepStrike innerText="I am a &lt;strike&gt; element!" />, document.getElementById('react-strike'));
+ReactDOM.render(<DepBlink innerText="I am a &lt;Blink&gt; element!" />, document.getElementById('react-blink'));
+ReactDOM.render(<DepMarquee innerText="I am a &lt;marquee&gt; element!" />, document.getElementById('react-marquee'));
+ReactDOM.render(<DepBig innerText="I am a &lt;big&gt; element!" />, document.getElementById('react-big'));
+ReactDOM.render(<DepCenter innerText="I am a &lt;Center&gt; element!" />, document.getElementById('react-center'));
 ReactDOM.render(<DepBgsound source="./assets/sound.mp3" />, document.getElementById('react-bgsound'));
