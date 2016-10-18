@@ -9,6 +9,7 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	watch: true,
+	resolve: { modulesDirectories: ['node_modules'], extension: ['', '.js', '.css'] },
 	devtool: "source-map",
 	module: {
 		loaders: [

@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 var css = require('./main.css');
 
-/*
 
-Blink --
-Marquee --
-strike --
-big --
-center --
-bgsound --
-
-*/
+// Blink --
+// Marquee --
+// strike --
+// big --
+// center --
+// bgsound --
 
 const DepStrike = (props) => ( <del>{props.innerText}</del> );
 const DepBlink = (props) => ( <span className="dep-blink">{props.innerText}</span> );

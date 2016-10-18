@@ -4,7 +4,7 @@
   "description": "React recreations of deprecated html elements",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack"
   },
   "author": "Matt Hamlin",
   "license": "ISC",
